@@ -1,6 +1,6 @@
 {
   "name": "layout-pack",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "author": "makotot <makoto.ttn@gmail.com>",
   "homepage": "",
@@ -18,9 +18,9 @@
     "build": "rollup -c"
   },
   "devDependencies": {
-    "styled-system": "^5.1.4",
     "@styled-system/css": "5.1.4",
     "@types/styled-system": "5.1.4",
-    "@types/styled-system__css": "5.0.4"
+    "@types/styled-system__css": "5.0.4",
+    "styled-system": "^5.1.4"
   }
 }
