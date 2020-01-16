@@ -7,6 +7,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -15,7 +16,8 @@
     "lib"
   ],
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "tsc": "npx tsc"
   },
   "dependencies": {
     "@styled-system/css": "5.1.4"
