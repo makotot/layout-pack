@@ -9,7 +9,7 @@ interface StackProps {
 export const stack = ({ child, gutter = 0 }: StackProps) => css({
   display: 'flex',
   flexDirection: 'column',
-  [`${ child } + ${ child }`]: {
+  [`> ${ child } + ${ child }`]: {
     marginTop: gutter,
   },
 })()
