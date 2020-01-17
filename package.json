@@ -5,7 +5,7 @@
     "clean": "lerna run clean",
     "test": "lerna run test",
     "tsc": "lerna run tsc",
-    "prepublishOnly": "yarn run test && yarn run tsc && yarn build"
+    "prepublishOnly": "yarn run test && yarn run tsc && yarn run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.0",
