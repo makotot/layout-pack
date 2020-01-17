@@ -17,8 +17,9 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "clean": "npx rimraf ./lib",
-    "tsc": "npx tsc"
+    "clean": "rimraf ./lib",
+    "tsc": "tsc",
+    "test": "jest --colors --verbose --runInBand"
   },
   "dependencies": {
     "@styled-system/css": "5.1.4"

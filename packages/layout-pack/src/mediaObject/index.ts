@@ -11,10 +11,10 @@ export const mediaObject = ({ body, media, gutter = 0 }: MediaObjectProps) => cs
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'flex-start',
-  [`${ media } + ${ body }`]: {
+  [`> ${ media } + ${ body }`]: {
     marginLeft: gutter,
   },
-  [`${ body } + ${ media }`]: {
-    marginRight: gutter,
+  [`> ${ body } + ${ media }`]: {
+    marginLeft: gutter,
   },
 })()
