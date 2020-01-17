@@ -3,7 +3,7 @@
   "scripts": {
     "build": "lerna run build",
     "clean": "lerna run clean",
-    "prepare": "lerna run tsc && yarn build"
+    "prepublishOnly": "lerna run tsc && yarn build"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.0",
