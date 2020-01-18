@@ -30,7 +30,5 @@ export default {
     }),
   ],
   external: [
-    'styled-components',
-    'layout-pack',
   ],
 }

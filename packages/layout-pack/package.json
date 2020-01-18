@@ -3,7 +3,7 @@
   "version": "0.0.9",
   "description": "",
   "author": "makotot <makoto.ttn@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/makotot/layout-pack",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
@@ -21,12 +21,7 @@
     "tsc": "tsc",
     "test": "jest --colors --verbose --runInBand"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@styled-system/css": "5.1.4"
-  },
-  "devDependencies": {
-    "@types/styled-system": "5.1.4",
-    "@types/styled-system__css": "5.0.4",
-    "styled-system": "^5.1.4"
   }
 }
