@@ -20,7 +20,9 @@
     "url": "git+https://github.com/makotot/layout-pack.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "rollup -c",
+    "clean": "rimraf ./lib",
+    "tsc": "tsc"
   },
   "bugs": {
     "url": "https://github.com/makotot/layout-pack/issues"
