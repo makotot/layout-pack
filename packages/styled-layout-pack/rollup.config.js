@@ -1,7 +1,7 @@
 import resolve from '@rollup/plugin-node-resolve'
 import babel from 'rollup-plugin-babel'
 
-const extensions = ['.ts']
+const extensions = ['.ts', '.tsx']
 
 export default {
   input: './src/index.ts',
@@ -30,5 +30,9 @@ export default {
     }),
   ],
   external: [
+    'styled-components',
+    'layout-pack',
+    'react',
+    'react-dom',
   ],
 }

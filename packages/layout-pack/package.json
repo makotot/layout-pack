@@ -16,6 +16,7 @@
     "lib"
   ],
   "scripts": {
+    "prebuild": "tsc",
     "build": "rollup -c",
     "clean": "rimraf ./lib",
     "tsc": "tsc",
