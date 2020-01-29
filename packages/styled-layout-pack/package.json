@@ -1,6 +1,6 @@
 {
   "name": "styled-layout-pack",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "",
   "author": "makotot <makoto.ttn@gmail.com>",
   "homepage": "https://github.com/makotot/layout-pack",
@@ -29,7 +29,7 @@
     "url": "https://github.com/makotot/layout-pack/issues"
   },
   "dependencies": {
-    "layout-pack": "^0.0.11"
+    "layout-pack": "^0.0.12"
   },
   "devDependencies": {
     "styled-components": "^5.0.0"
